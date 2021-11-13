@@ -1,0 +1,43 @@
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.allrecords {
+  width: 80%;
+  margin: auto;
+}
+
+.userinput,
+.userinputmodal {
+  /* border: 1px solid black; */
+  padding: 1rem;
+  background-color: #d1f1de;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.userinput .execute {
+  width: 25%;
+  margin: auto;
+  display: block;
+  margin-top: 1em;
+}
+.allrecords h3 {
+  color: green;
+}
+#myTable th {
+  background-color: #32de84 !important;
+}
+
+#myTable tr:hover {
+  background-color: #32de84 !important;
+}
+#myTable tr,
+td:hover {
+  font-weight: 2rem !important;
+}
+#myTable thead {
+  margin-top: 3px !important;
+  border: 3px solid white;
+}
