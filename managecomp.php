@@ -10,6 +10,7 @@ $berror = false;
 $error = "";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+    // edit
 if (isset( $_POST['snoEdit'])){
   // Update the record
     // $sno = $_POST["idEdit"];
@@ -36,6 +37,7 @@ if (isset( $_POST['snoEdit'])){
     // echo $company;
     }
 } 
+// add 
 if(isset($_POST['compname']) ){
     $name = $_POST['compname'];
     $contact= $_POST['contact'];
